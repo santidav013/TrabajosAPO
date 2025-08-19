@@ -1,4 +1,4 @@
-public class Main {
+public class Palindrome {
     public static void isPalindrome(String word){
          boolean palindrome=true;
          String palabra=word.toUpperCase();
