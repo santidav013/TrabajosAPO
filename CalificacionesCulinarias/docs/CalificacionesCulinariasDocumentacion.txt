@@ -1,0 +1,21 @@
+Este programa esta hecho para una competencia de cocina entre 3 chefs, donde se califican entre 1 y 5 platos con una calificacion de 0 a 100.
+Las funcionalidades consisten en:
+     
+leerNombresYCalificaciones:
+    Se encarga de pedirle al usuario el nombre de cada chef y sus calificaciones, para posteriormente guardar el total y calcular el promedio
+    
+mostrarEstadisticas:
+    Usa la informacion de la anterior funcion para generar un mensaje que nos muestre en pantalla cual es el nombre, puntaje y promedio de cada chef
+
+mostrarGanador:
+    Se encarga de calcular cual es el ganador de la competencia, asumiendo que el primero es el puntaje mas alto y comparandolo con los otros para al final dar con el mayor y mostrar el nombre del chef en pantalla
+
+Entradas:
+    numero de platos, nombres de los chefs y calificaciones de cada plato
+
+Proceso:
+    Asociando a listas con parametros definidos nuestros valores, podemos recopilar en orden la informacion necesaria usando cada una de las funcionalidades,primeramente en main se le pide al usuario la cantidad de platos que desean calificar en la competencia, en leerNombresYCalificaciones tambien se calcula el total acumulado por los chefs y el promedio, dividiendolo entre el numero de platos, en mostrarEstadisticas con los arreglos hechos salen los mensajes por pantalla con los puntajes y promedio de cada chef, y en mostrarGanador se calcula cual es el ganador comparando desde la primera poscicion con las siguientes y en caso de que una sea mayor esta sera la nueva poscicion o puntaje a evaluar.
+
+Salidas:
+    Total de los puntajes logrados por cada chef, Promedio de los puntajes de cada chef, y chef ganador
+    
